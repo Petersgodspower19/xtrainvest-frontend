@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+.ss{
+  color: #1e2224;
+  background-color: hsl(22, 36%, 76%);
+}
+.btn{
+  border: 2px solid #F8F3F0;
+  width: 150px;
+  background: inherit;
+}
+
+
+
+
+
+@media(max-width:500px) {
+  #home, #contact{
+    width: 100%;
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+  #home img, #about img, #contact img{
+    width: 300px;
+  }
+  
+
+  
+}
